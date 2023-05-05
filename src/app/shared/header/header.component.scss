@@ -64,6 +64,9 @@
       &:hover {
         filter: brightness(1.1);
       }
+      &:visited {
+        color: #121212;
+      }
     }
   }
 }

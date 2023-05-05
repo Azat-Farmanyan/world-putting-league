@@ -1,0 +1,16 @@
+.event-banner-block {
+  .event-banner-body {
+    position: relative;
+    .event-banner {
+      max-width: 100vw;
+      width: 100%;
+      object-fit: fill;
+    }
+    .event-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

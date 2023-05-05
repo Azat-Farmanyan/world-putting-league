@@ -3,23 +3,23 @@
     <div class="header-body">
       <img [routerLink]="['/home']" class='page-logo' src="../../../assets/icons/WPL-white 1.png" alt="WPL logo">
       <nav class="nav">
-        <div routerLinkActive="active-nav" class='nav-item'>
-          <a [routerLink]="['/home']">Home</a>
+        <div [routerLink]="['/home']" routerLinkActive="active-nav" class='nav-item'>
+          <a>Home</a>
         </div>
-        <div routerLinkActive="active-nav" class='nav-item'>
-          <a [routerLink]="['/event']">WPL EVENT #2, 4/20</a>
+        <div [routerLink]="['/event']" routerLinkActive="active-nav" class='nav-item'>
+          <a>WPL EVENT #2, 4/20</a>
         </div>
-        <div routerLinkActive="active-nav" class='nav-item'>
-          <a [routerLink]="['/players']">PLAYERS</a>
+        <div [routerLink]="['/players']" routerLinkActive="active-nav" class='nav-item'>
+          <a>PLAYERS</a>
         </div>
-        <div routerLinkActive="active-nav" class='nav-item'>
-          <a [routerLink]="['/past-result']">PAST RESULTS</a>
+        <div [routerLink]="['/past-result']" routerLinkActive="active-nav" class='nav-item'>
+          <a>PAST RESULTS</a>
         </div>
       </nav>
-      <button class='live-stream-btn'>
+      <a target='_blank' href='https://watch.proleaguenetwork.com/' class='live-stream-btn'>
         <img src="../../../assets/icons/solar_play-stream-outline.png" alt="live">
         <span>LIVE STREAM</span>
-      </button>
+      </a>
     </div>
   </div>
 </header>

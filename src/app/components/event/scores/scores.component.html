@@ -1,0 +1,20 @@
+<div class="scores">
+  <div class="scores-body wrapper">
+    <h2 class='medium-title scores-block-title'>
+      LIVE SCOREBOARD : Event #2 4.20.23
+    </h2>
+    <div class="scores-columns">
+      <div *ngFor="let el of [1,2,3,4]" class="score-column">
+        <div class="column-title bold-txt-small">
+          Round 1
+        </div>
+        <div class="colums-scores">
+          <div *ngFor="let el of [1,2,3,4,5]" class="each-row">
+            <p class="place text">Rainey Statum</p>
+            <p class='score text'>-8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

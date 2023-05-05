@@ -1,11 +1,11 @@
-.coming-soon {
-  min-height: 100vh;
-  height: 100%;
+.round-block {
   background-color: #fff;
-  .coming-soon-body {
-    padding: 150px 0;
+  .round-body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 100px 0;
+    & img {
+    }
   }
 }

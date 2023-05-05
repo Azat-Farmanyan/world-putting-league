@@ -1,0 +1,37 @@
+.scores {
+  background-color: #fff;
+  .scores-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    .scores-block-title {
+      margin-bottom: 56px;
+    }
+    .scores-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-around;
+      .score-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #f2f2f2;
+        border-radius: 10px;
+        padding: 17px;
+        max-width: 324px;
+        width: 100%;
+        .colums-scores {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .each-row {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}
