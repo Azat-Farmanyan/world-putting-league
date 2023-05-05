@@ -1,0 +1,25 @@
+<header class='header'>
+  <div class="wrapper">
+    <div class="header-body">
+      <img [routerLink]="['/home']" class='page-logo' src="../../../assets/icons/WPL-white 1.png" alt="WPL logo">
+      <nav class="nav">
+        <div routerLinkActive="active-nav" class='nav-item'>
+          <a [routerLink]="['/home']">Home</a>
+        </div>
+        <div routerLinkActive="active-nav" class='nav-item'>
+          <a [routerLink]="['/event']">WPL EVENT #2, 4/20</a>
+        </div>
+        <div routerLinkActive="active-nav" class='nav-item'>
+          <a [routerLink]="['/players']">PLAYERS</a>
+        </div>
+        <div routerLinkActive="active-nav" class='nav-item'>
+          <a [routerLink]="['/past-result']">PAST RESULTS</a>
+        </div>
+      </nav>
+      <button class='live-stream-btn'>
+        <img src="../../../assets/icons/solar_play-stream-outline.png" alt="live">
+        <span>LIVE STREAM</span>
+      </button>
+    </div>
+  </div>
+</header>

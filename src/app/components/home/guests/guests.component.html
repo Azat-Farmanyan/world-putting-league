@@ -1,0 +1,6 @@
+<div class="guests ">
+  <div class="guests-body">
+    <app-user-card *ngFor="let guest of guests" [cardImgPath]='guest.imgPath' [cardTitle]='guest.title'
+      [cardDescription]='guest.description'></app-user-card>
+  </div>
+</div>

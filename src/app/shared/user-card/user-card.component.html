@@ -1,0 +1,11 @@
+<div class="card" (mouseenter)='showDescription()' (mouseleave)='hiddenDescription()'>
+  <div class="card-body">
+    <img class='card-img' [src]='cardImgPath' [alt]="cardTitle">
+    <div class="card-text-block">
+      <div class="card-title bold-txt-medium black">{{cardTitle}}</div>
+      <p [@enterAnimation] *ngIf="descriptionStatus && cardDescription" class='text black card-description'>
+        {{cardDescription}}</p>
+    </div>
+  </div>
+
+</div>

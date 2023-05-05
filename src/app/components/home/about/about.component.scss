@@ -1,0 +1,22 @@
+.about {
+  background-color: #fff;
+  .about-body {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .about-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    .about-header-leftside {
+      width: 100%;
+      // max-width: 454px;
+    }
+    .about-header-rightside img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}

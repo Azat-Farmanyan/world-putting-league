@@ -1,0 +1,11 @@
+.guests {
+  background-color: #fff;
+  padding: 100px 20px;
+  .guests-body {
+    display: flex;
+    font-display: row;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
